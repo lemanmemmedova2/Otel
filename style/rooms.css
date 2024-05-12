@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/test4.jpg); 
+    background-size: 100%;
+}
+
+.rooms-page-header{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+header{
+    background-color: rgba(87, 52, 52, 0.8);
+    border: 1px solid black;
+    height: 100px;
+    padding-top: 1%;
+    position: sticky;
+}
+.information-div{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-top: 1%;
+}
+.room-type{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close4 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close5 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close3:hover,
+  .close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close4:hover,
+  .close4:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close5:hover,
+  .close5:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  button{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+  hr{
+    margin-bottom: 20px;
+  }
+  
+  html,
+  body {
+    position: relative;
+  }
+
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 601px){
+    .swiper-slide img {
+      display: block;
+      width: 260px;
+      height: 260px;
+      border-radius: 20px;
+    }
+    .swiper-slide{
+      display: block;
+      width: 260px;
+      height: 260px;
+      border-radius: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      font-family: 'Playfair Display', serif;
+    }
+    header {
+      background-color: rgba(87, 52, 52, 0.8);
+      border: 1px solid black;
+      height: 60px;
+      padding-top: 1%;
+      position: sticky;
+    }
+    .rooms-page-header {
+      color: white;
+      font-size: 35px;
+      text-align: center;
+    }
+    button {
+      margin-bottom: 30px;
+      width: 115px;
+      height: 35px;
+      font-size: 16px;
+    }
+  }
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .swiper-slide img {
+    display: block;
+    width: 310px;
+    height: 315px;
+    border-radius: 20px;
+  }
+
+  .swiper-slide{
+    display: block;
+    width: 310px;
+    height: 315px;
+    border-radius: 20px;
+  }
+  .rooms-page-header {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+  header {
+    background-color: rgba(87, 52, 52, 0.8);
+    border: 1px solid black;
+    height: 75px;
+    padding-top: 1%;
+    position: sticky;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+  }
+  button {
+    margin-bottom: 30px;
+    width: 135px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+}
+@media screen and (min-width: 991px) and (max-width: 1440px) {
+  h2 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+  }
+  button {
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+}

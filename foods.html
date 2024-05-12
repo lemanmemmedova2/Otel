@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foods</title>
+    <link rel="stylesheet" href="./style/food.css">
+</head>
+
+<body>
+    <header>
+        <h1> Foods </h1>
+    </header>
+    <div class="information-div">
+        <h3><i>What should we prepare for you? Please order any dish you want.</i></h3>
+
+        <div class="search-div">
+            <div class="input-div">
+                <input type="text" placeholder="Enter dish or drink name" id="searchInput">
+            </div>
+
+            <div class="button-div">
+                <button onclick="search()" id="searchButton" disabled>Search</button>
+            </div>
+        </div>
+
+        <div class="search-results">
+
+        </div>
+        <h2 class="top-results-h2">Top Searches</h2>
+
+        <div class="top-searches">
+
+        </div>
+    </div>
+
+
+
+    <script src="./javascript/app.js"></script>
+</body>
+
+</html>
